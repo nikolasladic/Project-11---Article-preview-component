@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+body,
+html {
+  background-color: #ecf2f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.article-component {
+  background-color: white;
+  width: 20.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto 1.5rem auto 1.5rem;
+  border-radius: 1rem;
+}
+
+.header-img {
+  width: 20.5rem;
+  height: 12.5rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.product-review {
+  padding: 2.5rem 2rem 1.25rem 2rem;
+}
+
+.review-heading {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: hsl(217, 19%, 35%);
+  padding-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.review-paragraph {
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+.reviewer {
+  display: flex;
+  margin: 0 1.5rem 1.5rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transform: translateX(-2rem);
+}
+
+.profile-picture {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+.profile-name,
+.date-posted {
+  font-size: 0.75rem;
+}
+
+.profile-name {
+  color: #48556a;
+  font-weight: 700;
+}
+
+.date-posted {
+  color: #9daec2;
+  font-weight: 500;
+}
+
+.share-button {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ecf2f8;
+  border-radius: 50%;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+.share-btn {
+  width: 1rem;
+  height: 0.875rem;
+}
+
+@media (min-width: 910px) {
+}
