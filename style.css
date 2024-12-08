@@ -196,4 +196,15 @@ html {
   .name-date {
     transform: translateX(-5rem);
   }
+
+  .share-container {
+    width: 248px;
+    height: 67px;
+    transform: translate(15rem, -5rem);
+    border-radius: 1rem;
+  }
+
+  .share-icon-container {
+    display: none;
+  }
 }
